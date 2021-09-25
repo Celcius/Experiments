@@ -1,0 +1,81 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AmoaebaUtils", "AmoaebaUtils.csproj", "{b1b6b7ee-b494-8abd-005c-86689d115639}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MessagePack", "MessagePack.csproj", "{5ca11e10-3cc2-edad-d2a2-3e14d03b71d3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AmoaebaCommands", "AmoaebaCommands.csproj", "{da44b4e0-0300-c812-a0fe-ba8dee5ce739}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp", "Assembly-CSharp.csproj", "{15e7bf8e-59dd-2453-0c95-8f4b1d3d50ab}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Persistance", "Persistance.csproj", "{1e1ea271-0b30-b18b-594d-1eaea488a84f}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ActionCommands", "ActionCommands.csproj", "{b5eb5ecc-994a-1320-c5e2-0da353c0caae}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AmoaebaWallet", "AmoaebaWallet.csproj", "{33ad0ab9-2c46-61da-aec9-1634a87237b5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AmoaebaUtils.Pathfinding", "AmoaebaUtils.Pathfinding.csproj", "{fd64e5e4-e4f4-2a72-65d7-87f32a7d6771}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AmoaebaLockSystem", "AmoaebaLockSystem.csproj", "{d513e3cd-b0e5-01a8-e6f3-2bf808468c02}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PathfindingEditor", "PathfindingEditor.csproj", "{1ceea2c9-b73f-50c2-0112-702387f2b9bd}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp-Editor", "Assembly-CSharp-Editor.csproj", "{170ac8ea-1fd3-8e97-9bd6-488fc28f6ec2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ActionCommandsTests", "ActionCommandsTests.csproj", "{d57415b7-89cd-6112-7221-f73839fcca23}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AmoaebaUtilsPersistanceTests", "AmoaebaUtilsPersistanceTests.csproj", "{61095ba3-4855-8a39-8b08-5bf4cc8c53cf}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AmoaebaUtilsEditor", "AmoaebaUtilsEditor.csproj", "{1b861aea-bf39-f695-2337-a204ed4bdbd8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ScriptableObjectUtilsEditor", "ScriptableObjectUtilsEditor.csproj", "{a0a5a2ea-906d-07d1-f2af-1f7d72efb2c6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AmoaebaUtils.CommandsEditor", "AmoaebaUtils.CommandsEditor.csproj", "{72b8d90b-7643-9497-990b-2aa3381c25a2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WalletTests", "WalletTests.csproj", "{80125aaf-e501-e4d1-ebde-e70d723cd386}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{b1b6b7ee-b494-8abd-005c-86689d115639}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{b1b6b7ee-b494-8abd-005c-86689d115639}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5ca11e10-3cc2-edad-d2a2-3e14d03b71d3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5ca11e10-3cc2-edad-d2a2-3e14d03b71d3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{da44b4e0-0300-c812-a0fe-ba8dee5ce739}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{da44b4e0-0300-c812-a0fe-ba8dee5ce739}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{15e7bf8e-59dd-2453-0c95-8f4b1d3d50ab}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{15e7bf8e-59dd-2453-0c95-8f4b1d3d50ab}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1e1ea271-0b30-b18b-594d-1eaea488a84f}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1e1ea271-0b30-b18b-594d-1eaea488a84f}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{b5eb5ecc-994a-1320-c5e2-0da353c0caae}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{b5eb5ecc-994a-1320-c5e2-0da353c0caae}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{33ad0ab9-2c46-61da-aec9-1634a87237b5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{33ad0ab9-2c46-61da-aec9-1634a87237b5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{fd64e5e4-e4f4-2a72-65d7-87f32a7d6771}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{fd64e5e4-e4f4-2a72-65d7-87f32a7d6771}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{d513e3cd-b0e5-01a8-e6f3-2bf808468c02}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{d513e3cd-b0e5-01a8-e6f3-2bf808468c02}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1ceea2c9-b73f-50c2-0112-702387f2b9bd}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1ceea2c9-b73f-50c2-0112-702387f2b9bd}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{170ac8ea-1fd3-8e97-9bd6-488fc28f6ec2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{170ac8ea-1fd3-8e97-9bd6-488fc28f6ec2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{d57415b7-89cd-6112-7221-f73839fcca23}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{d57415b7-89cd-6112-7221-f73839fcca23}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{61095ba3-4855-8a39-8b08-5bf4cc8c53cf}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{61095ba3-4855-8a39-8b08-5bf4cc8c53cf}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1b861aea-bf39-f695-2337-a204ed4bdbd8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1b861aea-bf39-f695-2337-a204ed4bdbd8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{a0a5a2ea-906d-07d1-f2af-1f7d72efb2c6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{a0a5a2ea-906d-07d1-f2af-1f7d72efb2c6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{72b8d90b-7643-9497-990b-2aa3381c25a2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{72b8d90b-7643-9497-990b-2aa3381c25a2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{80125aaf-e501-e4d1-ebde-e70d723cd386}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{80125aaf-e501-e4d1-ebde-e70d723cd386}.Debug|Any CPU.Build.0 = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
