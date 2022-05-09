@@ -1,2 +1,0 @@
-# Starting compiling UnityEngine.UI.dll
-C:\Program Files\Unity\Hub\Editor\2020.3.17f1\Editor\Data\Tools\RoslynScripts\unity_csc.bat /noconfig @Temp/UnityTempFile-882d9bee9bb8dd94896ceb4aefd7e4f8

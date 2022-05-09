@@ -280,16 +280,24 @@ MonoBehaviour:
   m_GameObject: {fileID: 509254142}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4f231c4fb786f3946a6b90b886c48677, type: 3}
+  m_Script: {fileID: 11500000, guid: 01614664b831546d2ae94a42149d80ac, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_HorizontalAxis: Horizontal
-  m_VerticalAxis: Vertical
-  m_SubmitButton: Submit
-  m_CancelButton: Cancel
-  m_InputActionsPerSecond: 10
-  m_RepeatDelay: 0.5
-  m_ForceModuleActive: 0
+  m_MoveRepeatDelay: 0.5
+  m_MoveRepeatRate: 0.1
+  m_ActionsAsset: {fileID: -944628639613478452, guid: ca9f5fa95ffab41fb9a615ab714db018, type: 3}
+  m_PointAction: {fileID: 1054132383583890850, guid: ca9f5fa95ffab41fb9a615ab714db018, type: 3}
+  m_MoveAction: {fileID: 3710738434707379630, guid: ca9f5fa95ffab41fb9a615ab714db018, type: 3}
+  m_SubmitAction: {fileID: 2064916234097673511, guid: ca9f5fa95ffab41fb9a615ab714db018, type: 3}
+  m_CancelAction: {fileID: -1967631576421560919, guid: ca9f5fa95ffab41fb9a615ab714db018, type: 3}
+  m_LeftClickAction: {fileID: 8056856818456041789, guid: ca9f5fa95ffab41fb9a615ab714db018, type: 3}
+  m_MiddleClickAction: {fileID: 3279352641294131588, guid: ca9f5fa95ffab41fb9a615ab714db018, type: 3}
+  m_RightClickAction: {fileID: 3837173908680883260, guid: ca9f5fa95ffab41fb9a615ab714db018, type: 3}
+  m_ScrollWheelAction: {fileID: 4502412055082496612, guid: ca9f5fa95ffab41fb9a615ab714db018, type: 3}
+  m_TrackedDevicePositionAction: {fileID: 4754684134866288074, guid: ca9f5fa95ffab41fb9a615ab714db018, type: 3}
+  m_TrackedDeviceOrientationAction: {fileID: 1025543830046995696, guid: ca9f5fa95ffab41fb9a615ab714db018, type: 3}
+  m_DeselectOnBackgroundClick: 1
+  m_PointerBehavior: 0
 --- !u!114 &509254144
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -325,7 +333,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh22104
+  m_Name: pb_Mesh22136
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -803,7 +811,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1597370744}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 10.62, z: 0}
+  m_LocalPosition: {x: 0, y: 8.1, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1073091378}
@@ -1337,7 +1345,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3888033243949735457, guid: 2d784bd9d891ad24d9dcecea3be738fd, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0.20000005
+      value: -0.65
       objectReference: {fileID: 0}
     - target: {fileID: 3888033243949735457, guid: 2d784bd9d891ad24d9dcecea3be738fd, type: 3}
       propertyPath: m_LocalPosition.y
@@ -1347,13 +1355,17 @@ PrefabInstance:
       propertyPath: m_LocalPosition.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5320364617494623024, guid: 2d784bd9d891ad24d9dcecea3be738fd, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5320364617494623037, guid: 2d784bd9d891ad24d9dcecea3be738fd, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: 6b911390c5825014e8377183a7837d3f, type: 2}
+      objectReference: {fileID: 2100000, guid: 74117f645ca87544896e430b75e9a316, type: 2}
     - target: {fileID: 6154411718081426702, guid: 2d784bd9d891ad24d9dcecea3be738fd, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0.20000005
+      value: -0.65
       objectReference: {fileID: 0}
     - target: {fileID: 6154411718081426702, guid: 2d784bd9d891ad24d9dcecea3be738fd, type: 3}
       propertyPath: m_LocalPosition.y
@@ -1361,6 +1373,50 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6154411718081426702, guid: 2d784bd9d891ad24d9dcecea3be738fd, type: 3}
       propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6901787862973836209, guid: 2d784bd9d891ad24d9dcecea3be738fd, type: 3}
+      propertyPath: gameplayActions.m_Actions.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6901787862973836209, guid: 2d784bd9d891ad24d9dcecea3be738fd, type: 3}
+      propertyPath: gameplayActions.m_Bindings.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6901787862973836209, guid: 2d784bd9d891ad24d9dcecea3be738fd, type: 3}
+      propertyPath: gameplayActions.m_Actions.Array.data[0].m_Id
+      value: d6f58480-4a35-4461-ac1a-273ef0a27fa8
+      objectReference: {fileID: 0}
+    - target: {fileID: 6901787862973836209, guid: 2d784bd9d891ad24d9dcecea3be738fd, type: 3}
+      propertyPath: gameplayActions.m_Bindings.Array.data[0].m_Id
+      value: 9ab2d1d5-e76c-4d76-9c7b-2942e9ff778d
+      objectReference: {fileID: 0}
+    - target: {fileID: 6901787862973836209, guid: 2d784bd9d891ad24d9dcecea3be738fd, type: 3}
+      propertyPath: gameplayActions.m_Actions.Array.data[0].m_Name
+      value: Interact
+      objectReference: {fileID: 0}
+    - target: {fileID: 6901787862973836209, guid: 2d784bd9d891ad24d9dcecea3be738fd, type: 3}
+      propertyPath: gameplayActions.m_Actions.Array.data[0].m_Type
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6901787862973836209, guid: 2d784bd9d891ad24d9dcecea3be738fd, type: 3}
+      propertyPath: gameplayActions.m_Bindings.Array.data[0].m_Path
+      value: <Keyboard>/e
+      objectReference: {fileID: 0}
+    - target: {fileID: 6901787862973836209, guid: 2d784bd9d891ad24d9dcecea3be738fd, type: 3}
+      propertyPath: gameplayActions.m_Bindings.Array.data[0].m_Action
+      value: Interact
+      objectReference: {fileID: 0}
+    - target: {fileID: 6901787862973836209, guid: 2d784bd9d891ad24d9dcecea3be738fd, type: 3}
+      propertyPath: interactAction.m_SingletonActionBindings.Array.size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6901787862973836209, guid: 2d784bd9d891ad24d9dcecea3be738fd, type: 3}
+      propertyPath: gameplayActions.m_Actions.Array.data[0].m_ExpectedControlType
+      value: Button
+      objectReference: {fileID: 0}
+    - target: {fileID: 8401933155508578086, guid: 2d784bd9d891ad24d9dcecea3be738fd, type: 3}
+      propertyPath: m_Layer
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 9210557349395840412, guid: 2d784bd9d891ad24d9dcecea3be738fd, type: 3}

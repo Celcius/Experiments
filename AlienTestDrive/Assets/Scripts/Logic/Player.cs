@@ -12,7 +12,6 @@ public class Player : MonoBehaviour
 
     VehicleEnterArea vehicle;
 
-    public InputAction interactAction;
     public InputActionMap gameplayActions;
 
     private void Start()
@@ -43,15 +42,11 @@ public class Player : MonoBehaviour
 
     private void OnEnable()
     {
-        interactAction.Enable();
-
         gameplayActions.Enable();
     }
 
     private void OnDisable()
     {
-        interactAction.Disable();
-
         gameplayActions.Disable();
     }
 }
